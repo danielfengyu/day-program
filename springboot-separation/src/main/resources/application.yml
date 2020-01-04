@@ -1,0 +1,24 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: springboot-datasource-separation
+  datasource:
+    master:
+      jdbc-url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&amp;serverTimezone=UTC&amp;useSSL=false
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    slave1:
+      jdbc-url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&amp;serverTimezone=UTC&amp;useSSL=false
+      username: slave1   # 只读账户
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    slave2:
+      jdbc-url: jdbc:mysql://localhost:3306/test?characterEncoding=utf-8&amp;serverTimezone=UTC&amp;useSSL=false
+      username: slave2   # 只读账户
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  type-aliases-package: com.day.study.datasource.springbootseparation.common.entity

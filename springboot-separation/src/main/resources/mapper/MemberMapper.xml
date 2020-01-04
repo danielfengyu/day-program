@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.day.study.datasource.springbootseparation.mapper.MemberMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.day.study.datasource.springbootseparation.common.entity.Member">
+        <id column="id" property="id"/>
+        <result column="member_name" property="memberName"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id,
+        member_name, age
+    </sql>
+    <insert id="insert" parameterType="com.day.study.datasource.springbootseparation.common.entity.Member"
+            useGeneratedKeys="true"
+            keyProperty="id">
+    insert into member(member_name,age) values (#{memberName},#{age})
+  </insert>
+</mapper>

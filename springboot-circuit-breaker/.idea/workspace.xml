@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de5dd60f-294b-4910-8bf9-37772e349f42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-interceptor/src/main/java/com/day/study/interceptor/config/ConverterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/main/java/com/day/study/es/springbootes/SpringbootEsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/main/java/com/day/study/es/springbootes/dao/CommodityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/main/java/com/day/study/es/springbootes/entity/Commodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/main/java/com/day/study/es/springbootes/service/CommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/main/java/com/day/study/es/springbootes/service/impl/CommodityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/test/java/com/day/study/es/springbootes/CjsElasticsearchExampleApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/test/java/com/day/study/es/springbootes/ElasticsearchTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-es/src/test/java/com/day/study/es/springbootes/SpringbootEsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/aspect/DataSourceAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/common/annotation/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/common/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/common/enums/DBType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/config/db/DBContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/config/db/MyRoutingDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/java/com/day/study/datasource/springbootseparation/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-separation/src/main/resources/mapper/MemberMapper.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Software App/Java/Maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\Software App\Java\Maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VvsoHnA2oBmoyW7kl6XQkRH2mC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="D:/Software App/UIDevelop/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringbootCircuitBreakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-circuit-breaker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.day.study.circuitbreaker.springbootcircuitbreaker.SpringbootCircuitBreakerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de5dd60f-294b-4910-8bf9-37772e349f42" name="Default Changelist" comment="" />
+      <created>1578145076481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578145076481</updated>
+      <workItem from="1578145081216" duration="1048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
